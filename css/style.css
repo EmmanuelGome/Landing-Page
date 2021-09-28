@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-.grid-item-1{
+.grid-item-1 {
     justify-self: center;
 }
 
@@ -49,4 +49,23 @@ input {
     margin: 10px 0;
     display: block;
     width: 75%;
+}
+
+section {
+    margin: 20px;
+    align-items: center;
+}
+
+@media (min-width: 767px) {
+    #como-funciona {
+        width: 80%;
+        margin: 0 10% 0 10% !important;
+    }
+}
+
+@media (min-width: 1023px) {
+    #como-funciona {
+        width: 60%;
+        margin: 0 20% 0 20% !important;
+    }
 }
