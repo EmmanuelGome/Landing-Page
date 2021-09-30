@@ -1,3 +1,7 @@
+html {
+    background: #000000;
+}
+
 #brandNav {
     display: flex;
 }
@@ -12,6 +16,13 @@
 
 #section-subs {
     text-align: center;
+}
+
+.card-price {
+    max-width: 28%;
+    min-height: 300px;
+    margin: 10px 2.5%;
+    padding: 0;
 }
 
 .icon-feacture {
@@ -30,6 +41,19 @@
     justify-self: center;
 }
 
+.btn-price {
+    margin: 15px auto;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+}
+
+/* nav {
+    position: fixed;
+}
+ */
 h1 {
     display: inline-block;
 }
@@ -56,16 +80,31 @@ section {
     align-items: center;
 }
 
-@media (min-width: 767px) {
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
     #como-funciona {
         width: 80%;
-        margin: 0 10% 0 10% !important;
+        margin: 10px 10% 30px 10%;
     }
 }
 
-@media (min-width: 1023px) {
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
     #como-funciona {
         width: 60%;
-        margin: 0 20% 0 20% !important;
+        margin: 50px 20% 50px 20% !important;
+    }
+    iframe {
+        height: 450px;
     }
 }
